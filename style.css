@@ -1,0 +1,50 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.card-hover img{
+    width: 100%;
+
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 100fr 100fr 100fr 100fr;
+}
+.card{
+    margin: 10px;
+}
+.btn-primary{
+    background-color: rgb(212, 209, 3) !important;
+    border: 2px solid rgb(88, 76, 7) !important;
+}
+
+h5{
+    font-size: 25px !important;
+    font-weight: bolder !important;
+
+
+}
+
+@media (max-width:1024px){
+    h5{
+        color: rgb(131, 81, 20) !important;
+    }
+    .container{
+        grid-template-columns: 100fr 100fr;
+        grid-template-rows: 100fr 100fr;
+    }
+
+}
+@media (max-width:700px){
+    h5{
+        color: rgb(146, 184, 11) !important;
+    }
+    .container{
+        grid-template-columns: 100fr;
+        grid-template-rows: 100fr 100fr 100fr;
+    }
+
+}
